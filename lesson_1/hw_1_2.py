@@ -1,4 +1,5 @@
 a = input ("Vvedite kolichestvo sekund ")
+a = int(a)
 b = a % 60
 c = a // 3600
 d = a // 60 - c * 60
