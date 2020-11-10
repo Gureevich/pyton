@@ -1,8 +1,8 @@
 a = input("Vvedite cislo ")
-b = str(a)
-c = b + b
-d = b + b + b
-print (int(b) + int(c) + int(d))
+b = f"{a}{a}"
+c = f"{a}{a}{a}"
+print (a, b, c)
+print (int(a) + int(b) + int(c))
 
-a = input("Vvedite chislo ")
-print (str(a) + str(a + a) + str(a + a + a))
+a = input("Vvedite cislo ")
+print (int(a) + int(f"{a}{a}") + int(f"{a}{a}{a}"))
