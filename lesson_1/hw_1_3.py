@@ -1,4 +1,8 @@
-#3. Узнайте у пользователя число n.
-#Найдите сумму чисел n + nn + nnn.
-#Например, пользователь ввёл число 3. Считаем 3 + 33 + 333 = 369
+a = input("Vvedite cislo ")
+b = str(a)
+c = b + b
+d = b + b + b
+print (int(b) + int(c) + int(d))
 
+a = input("Vvedite chislo ")
+print (str(a) + str(a + a) + str(a + a + a))

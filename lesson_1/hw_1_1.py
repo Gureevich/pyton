@@ -1,9 +1,7 @@
-#1. Поработайте с переменными, создайте несколько, выведите на
-#экран, запросите у пользователя несколько чисел и строк и сохраните в переменные,
-#выведите на экран.
-a = input("Vvod chisla")
+a = input("Vvedite cislo ")
 b = True
 c = "asdasd"
 d = 1.0
 
-print (a)
+print (a, b, c, d)
+print (type(a), type(b), type(c), type(d))
